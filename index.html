@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museu Virtual Interativo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Museu Virtual Interativo</h1>
+    <p>Explore obras de arte e descubra suas histórias.</p>
+  </header>
+
+  <main id="gallery-container">
+    <div id="three-container"></div>
+    <div id="info-modal" class="hidden">
+      <h2>Detalhes da Obra</h2>
+      <p id="description">Clique em uma obra para mais informações.</p>
+      <button id="close-modal">Fechar</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Museu Virtual Interativo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
